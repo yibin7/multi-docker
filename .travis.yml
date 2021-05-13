@@ -18,8 +18,8 @@ after_success:
   # Log in to the docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   # Take those images and push them to docker hub
-  - docker push yibin7/multi-client
-  - docker push yibin7/multi-nginx
-  - docker push yibin7/multi-server
-  - docker push yibin7/multi-worker
+  - docker push xinyibin1982/multi-client
+  - docker push xinyibin1982/multi-nginx
+  - docker push xinyibin1982/multi-server
+  - docker push xinyibin1982/multi-worker
 
